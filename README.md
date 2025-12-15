@@ -4,4 +4,4 @@ This Terraform template creates an event-driven AWS architecture that automatica
 
 ## Architecture Flow
 
-**S3 (source)** → **SNS Topic** → **SQS Queue** → **Lambda Function** → **S3 (destination)**
+**S3 (source)** → **SNS Topic** → **SQS Queue** → **Lambda Function (Gets Image Metadata)** → **S3 (destination)**
